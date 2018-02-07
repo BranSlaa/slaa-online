@@ -1,6 +1,6 @@
 {
-    "name": "gatsby-starter-default",
-    "description": "Gatsby default starter",
+    "name": "Slaa Online",
+    "description": "Personal website of Brandon Slaa",
     "version": "1.0.0",
     "author": "Brandon Slaa <branslaa@gmail.com>",
     "dependencies": {

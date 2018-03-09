@@ -7,11 +7,6 @@ const IndexPage = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link>
-  <script>
-    console.log("Almost the droid you are looking for");
-  alert("droids?");
-  window.parent.postMessage("This is the driod you are looking for.", https://xr2.rhinoactive.com);
-  </script>
   </div>
 )
 

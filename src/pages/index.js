@@ -10,4 +10,11 @@ const IndexPage = () => (
   </div>
 )
 
+
+  console.log("Almost the droid you are looking for");
+  alert("droids?");
+  window.parent.postMessage("This is the driod you are looking for.", https://xr2.rhinoactive.com);
+
+
+
 export default IndexPage

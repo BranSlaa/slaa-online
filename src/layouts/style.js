@@ -53,6 +53,7 @@ injectGlobal`
             width: 100%;
             border-radius: 0.5rem;
             border: 3px solid rgba(0,0,0,0);
+            transition: border 0.3s ease;
 
             &:active,
             &:focus {

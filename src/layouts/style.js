@@ -1,8 +1,8 @@
-import '../styles/reset.scss'
-import '../styles/font.scss'
+import "../styles/reset.scss";
+import "../styles/font.scss";
 
-import styled, { injectGlobal } from 'styled-components'
-import { color, typography, fontSize, mediaQuery } from '../global'
+import styled, { injectGlobal } from "styled-components";
+import { color, typography, fontSize, mediaQuery } from "../global";
 
 injectGlobal`
   body {
@@ -94,4 +94,4 @@ injectGlobal`
             }
         }
     }
-`
+`;

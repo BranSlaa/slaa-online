@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2018-present, Brandon Slaa
  */
-import Buttonlink from './Buttonlink'
+import ButtonLink from "./ButtonLink";
 
-export default Buttonlink
+export default ButtonLink;

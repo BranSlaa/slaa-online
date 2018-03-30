@@ -36,3 +36,17 @@ export const colors = {
 export const typography = {
   primary: "'Cabin', sans-serif",
 }
+
+export const fontSizes = {
+  small: '1rem',
+  medium: '1.5rem',
+  large: '2rem',
+  xlarge: '3rem',
+}
+
+export const mediaQueries = {
+  small: 'min-width: 576px',
+  medium: 'min-width: 768px',
+  large: 'min-width: 992px',
+  xlarge: 'min-width: 1200px',
+}

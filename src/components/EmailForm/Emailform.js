@@ -1,11 +1,22 @@
 import React from 'react'
 
 const Emailform = () => (
-  <form action="https://jumprock.co/mail/BrandonSlaa" method="post">
-    <input type="text" name="email" placeholder="Email Address" />
-    <input type="text" name="message" placeholder="message" />
-    <input type="submit" value="Contact Us" />
-    <input type="hidden" name="after" value="https://slaa.online" />
+  <form
+    className="contactForm"
+    name="contact"
+    method="POST"
+    data-netlify="true"
+  >
+    <label>
+      Your Name: <input type="text" name="name" />
+    </label>
+    <label>
+      Your Email: <input type="email" name="email" />
+    </label>
+    <label>
+      Message: <textarea name="message" />
+    </label>
+    <button type="submit">Send</button>
   </form>
 )
 

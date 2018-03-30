@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Hero = ({ children, image, ...rest }) => {
-  console.log({ image })
   const Div = styled.div`
     position: relative;
     background: url(${image.heroImage}) center no-repeat;

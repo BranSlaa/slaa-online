@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import { colors } from '../../global'
+import { color } from '../../global'
 
 const ButtonLink = ({ children, type, ...rest }) => {
   return (
@@ -12,7 +12,7 @@ const ButtonLink = ({ children, type, ...rest }) => {
 }
 
 const styles = {
-  border: '2px solid ' + colors.primary,
+  border: '2px solid ' + color.primary,
   borderRadius: '20px',
   padding: '0.5rem',
 }

@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import ButtonLink from '../components/ButtonLink'
 import Hero from '../components/Hero'
-import { navigation, colors } from '../global'
+import { navigation, color, fontSize } from '../global'
 import heroImage from '../../static/hero.jpg'
 
 const IndexPage = () => (

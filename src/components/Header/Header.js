@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import { navigation, colors } from '../../global'
+import { navigation, color } from '../../global'
 
 const Header = () => (
-  <header style={{ backgroundColor: colors.primary }}>
+  <header style={{ backgroundColor: color.primary }}>
     <div
       style={{
         display: 'flex',

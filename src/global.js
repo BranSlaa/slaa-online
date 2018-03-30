@@ -24,7 +24,7 @@ export const contactInfo = {
   email: 'branslaa@gmail.com',
 }
 
-export const colors = {
+export const color = {
   primary: '#bc2127',
   secondary: '#9c6b4d',
   asset: '#ddbf8b',
@@ -37,14 +37,14 @@ export const typography = {
   primary: "'Cabin', sans-serif",
 }
 
-export const fontSizes = {
+export const fontSize = {
   small: '1rem',
   medium: '1.5rem',
   large: '2rem',
   xlarge: '3rem',
 }
 
-export const mediaQueries = {
+export const mediaQuery = {
   small: 'min-width: 576px',
   medium: 'min-width: 768px',
   large: 'min-width: 992px',

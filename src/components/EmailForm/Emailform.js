@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Emailform = () => (
+const EmailForm = () => (
   <form
     className="contactForm"
     name="contact"
@@ -20,4 +20,4 @@ const Emailform = () => (
   </form>
 )
 
-export default Emailform
+export default EmailForm

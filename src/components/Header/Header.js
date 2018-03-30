@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import { navigation, colors } from '../../global'
 
 const Header = () => (
-  <div style={{ backgroundColor: colors.primary, marginBottom: '1.45rem' }}>
+  <div style={{ backgroundColor: colors.primary }}>
     <div
       style={{
         margin: '0 auto',
@@ -30,6 +30,15 @@ const Header = () => (
               {navigation.home.text}
             </Link>
           </h1>
+        </li>
+        <li>
+          <Link
+            to={navigation.about.link}
+            title={navigation.about.title}
+            style={{ color: 'white' }}
+          >
+            {navigation.about.text}
+          </Link>
         </li>
         <li>
           <Link

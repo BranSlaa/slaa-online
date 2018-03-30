@@ -8,6 +8,11 @@ export const navigation = {
     title: 'Home',
     text: 'Home',
   },
+  about: {
+    link: '#about',
+    title: 'About Me',
+    text: 'About',
+  },
   blog: {
     link: '/blog',
     title: 'Visit Blog',
@@ -31,4 +36,8 @@ export const colors = {
   darkGrey: '#494043',
   almostBlack: '#333333',
   almostWhite: '#f7f7f7',
+}
+
+export const typography = {
+  primary: "'Cabin', sans-serif",
 }

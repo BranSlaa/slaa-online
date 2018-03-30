@@ -18,5 +18,18 @@ injectGlobal`
 
   h1 {
     font-family: ${typography.primary};
+    color: ${colors.almostWhite};
+  }
+
+  p {
+    color: ${colors.almostWhite};
+  }
+
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8rem 0;
   }
 `

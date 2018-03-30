@@ -2,27 +2,29 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Hero = ({ children, image, ...rest }) => {
-  const div = styled.div`
-    padding: '20rem 10%';
+  console.log({ image })
+  const Div = styled.div`
+    position: relative;
+    background: url(${image.heroImage}) center no-repeat;
 
-    &:before {
-        content: '';
-        position: fixed;
-        left: 0;
-        right: 0;
-        z-index: -1;
-        display: block;
-        /* background-image: url(${props => props.image}); */
-        background-color: red;
-        padding: '20rem 10%';
-        background-repeat: 'no-repeat';
-        background-size: 'cover';
-        background-position: 'bottom';
-
-        filter: blur(5px);
+    &:after {
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 0;
+      background-color: rgba(0, 0, 0, 0.8);
     }
-    `
-  return <div {...rest}>{children}</div>
+
+    & > * {
+      position: relative;
+      z-index: 1;
+    }
+  `
+  return <Div {...rest}>{children}</Div>
 }
 
 export default Hero

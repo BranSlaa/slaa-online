@@ -4,14 +4,26 @@ import Link from 'gatsby-link'
 import { navigation, colors } from '../../global'
 
 const Header = () => (
-  <div style={{ backgroundColor: colors.primary }}>
+  <header style={{ backgroundColor: colors.primary }}>
     <div
       style={{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
       }}
     >
+      <h1>
+        <Link
+          to={navigation.home.link}
+          title={navigation.home.title}
+          style={{ color: 'white' }}
+        >
+          {navigation.home.text}
+        </Link>
+      </h1>
       <ul
         style={{
           display: 'flex',
@@ -21,26 +33,6 @@ const Header = () => (
         }}
       >
         <li>
-          <h1 style={{ margin: 0 }}>
-            <Link
-              to={navigation.home.link}
-              title={navigation.home.title}
-              style={{ color: 'white' }}
-            >
-              {navigation.home.text}
-            </Link>
-          </h1>
-        </li>
-        <li>
-          <Link
-            to={navigation.about.link}
-            title={navigation.about.title}
-            style={{ color: 'white' }}
-          >
-            {navigation.about.text}
-          </Link>
-        </li>
-        <li>
           <Link
             to={navigation.blog.link}
             title={navigation.blog.title}
@@ -49,7 +41,7 @@ const Header = () => (
             {navigation.blog.text}
           </Link>
         </li>
-        <li>
+        <li style={{ marginLeft: '1rem' }}>
           <Link
             to={navigation.contact.link}
             title={navigation.contact.title}
@@ -60,7 +52,7 @@ const Header = () => (
         </li>
       </ul>
     </div>
-  </div>
+  </header>
 )
 
 export default Header

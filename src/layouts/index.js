@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Hero from '../components/Hero'
 import { colors } from '../global'
 
 import './style'
@@ -19,7 +20,7 @@ const TemplateWrapper = ({ children }) => (
     />
     <Header />
 
-    <div className="main">{children()}</div>
+    {children()}
 
     <Footer />
   </div>

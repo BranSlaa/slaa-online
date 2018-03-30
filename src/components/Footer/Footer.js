@@ -4,6 +4,11 @@ import Emailform from '../EmailForm'
 
 import { navigation, colors } from '../../global'
 
-const Footer = () => <Emailform />
+const Footer = () => (
+  <footer>
+    <p>Want to get in contact? Please leave a message below!</p>
+    <Emailform />
+  </footer>
+)
 
 export default Footer

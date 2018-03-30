@@ -8,11 +8,6 @@ export const navigation = {
     title: 'Home',
     text: 'Home',
   },
-  about: {
-    link: '#about',
-    title: 'About Me',
-    text: 'About',
-  },
   blog: {
     link: '/blog',
     title: 'Visit Blog',

@@ -31,4 +31,6 @@ const IndexPage = () => (
   </Hero>
 )
 
+
+
 export default IndexPage

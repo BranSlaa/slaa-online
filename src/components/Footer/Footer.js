@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import EmailForm from '../EmailForm'
+import Emailform from '../Emailform'
 
 import { navigation, color, fontSize } from '../../global'
 
@@ -15,7 +15,7 @@ const Footer = () => (
     >
       Want to get in contact? Please leave a message below!
     </p>
-    <EmailForm />
+    <Emailform />
   </footer>
 )
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import ButtonLink from '../components/ButtonLink'
+import Buttonlink from '../components/Buttonlink'
 import Hero from '../components/Hero'
 import { navigation, color, fontSize } from '../global'
 import heroImage from '../../static/hero.jpg'

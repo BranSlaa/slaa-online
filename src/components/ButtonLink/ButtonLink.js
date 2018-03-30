@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import { color } from '../../global'
 
-const ButtonLink = ({ children, type, ...rest }) => {
+const Buttonlink = ({ children, type, ...rest }) => {
   return (
     <Link {...rest} style={styles}>
       {children}
@@ -17,4 +17,4 @@ const styles = {
   padding: '0.5rem',
 }
 
-export default ButtonLink
+export default Buttonlink

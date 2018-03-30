@@ -1,3 +1,3 @@
-import EmailForm from './EmailForm'
+import Emailform from './Emailform'
 
-export default EmailForm
+export default Emailform

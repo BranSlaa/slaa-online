@@ -12,10 +12,13 @@ import './style';
 const TemplateWrapper = ({ children }) => (
     <div>
         <Helmet
-            title="Slaa"
+            title="Slaa Online | Personal Website"
             meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' }
+                {
+                    name: 'description',
+                    content: 'The personal website of Brandon Slaa'
+                },
+                { name: 'keywords', content: 'Brandon Slaa, Web Developer' }
             ]}
         />
         <Header />

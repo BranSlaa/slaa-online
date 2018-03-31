@@ -55,7 +55,7 @@ class Header extends React.Component {
                         alignItems: 'center'
                     }}
                 >
-                    <li>
+                    {/* <li>
                         <Link
                             to={navigation.blog.link}
                             title={navigation.blog.title}
@@ -63,7 +63,7 @@ class Header extends React.Component {
                         >
                             {navigation.blog.text}
                         </Link>
-                    </li>
+                    </li> */}
                     <li style={{ marginLeft: '1rem' }}>
                         <a
                             href={navigation.contact.link}

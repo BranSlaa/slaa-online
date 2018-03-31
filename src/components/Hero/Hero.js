@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Hero = ({ children, image, ...rest }) => {
     const Div = styled.div`
@@ -7,7 +7,7 @@ const Hero = ({ children, image, ...rest }) => {
         background: url(${image.heroImage}) center no-repeat;
 
         &:after {
-            content: "";
+            content: '';
             display: block;
             height: 100%;
             position: absolute;

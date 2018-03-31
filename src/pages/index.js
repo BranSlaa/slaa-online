@@ -1,22 +1,29 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
-import Hero from "../components/Hero";
-import { navigation, color, fontSize } from "../global";
-import heroImage from "../../static/hero.jpg";
+import Hero from '../components/Hero';
+import About from '../components/About';
+import { navigation, color, fontSize } from '../global';
+import heroImage from '../../static/hero.jpg';
 
 const IndexPage = () => (
     <div>
         <Hero image={{ heroImage }}>
-            <div className="heroContent">
+            <div
+                style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'space-around',
+                    padding: '14rem 0'
+                }}
+            >
                 <h1>Hi! I'm Brandon Slaa</h1>
                 <p>A web developer in Ontario Canada.</p>
                 <p>This is my site. It is currently a work in progress.</p>
             </div>
         </Hero>
-        <section className="about">
-            <p>some text</p>
-        </section>
+        <About />
     </div>
 );
 

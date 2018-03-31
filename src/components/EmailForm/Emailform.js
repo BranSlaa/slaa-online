@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const EmailForm = () => (
     <form
@@ -7,12 +7,14 @@ const EmailForm = () => (
         method="POST"
         data-netlify="true"
     >
-        <label>
-            Your Name: <input type="text" name="name" />
-        </label>
-        <label>
-            Your Email: <input type="email" name="email" />
-        </label>
+        <div className="inputFields">
+            <label>
+                Your Name: <input type="text" name="name" />
+            </label>
+            <label>
+                Your Email: <input type="email" name="email" />
+            </label>
+        </div>
         <label>
             Message: <textarea name="message" />
         </label>

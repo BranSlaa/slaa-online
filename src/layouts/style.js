@@ -18,8 +18,28 @@ injectGlobal`
 
   h1 {
     font-family: ${typography.primary};
-    font-size: ${fontSize.xlarge};
+    font-size: 4rem;
     color: ${color.almostWhite};
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.5rem;
   }
 
   p {

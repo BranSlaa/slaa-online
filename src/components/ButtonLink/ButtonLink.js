@@ -1,20 +1,14 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react';
+import Link from 'gatsby-link';
 
-import { color } from "../../global";
+import { color } from '../../global';
 
 const ButtonLink = ({ children, type, ...rest }) => {
     return (
-        <Link {...rest} style={styles}>
+        <Link className="button" {...rest}>
             {children}
         </Link>
     );
-};
-
-const styles = {
-    border: "2px solid " + color.primary,
-    borderRadius: "20px",
-    padding: "0.5rem"
 };
 
 export default ButtonLink;

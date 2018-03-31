@@ -26,10 +26,13 @@ export const contactInfo = {
 
 export const color = {
     primary: '#bf212f',
+    primaryLight: '#df4855',
+    primaryDark: '#8f1823',
     secondary: '#006f3c',
-    accent: '#f9a73e',
-    darkGrey: '#494043',
-    almostBlack: '#333333',
+    secondaryyLight: '#00d271',
+    secondaryyDark: '#00532c',
+    accent: '#ff9933',
+    almostBlack: '#2a2a2a',
     almostWhite: '#f7f7f7'
 };
 

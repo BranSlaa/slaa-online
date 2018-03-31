@@ -36,17 +36,17 @@ injectGlobal`
             margin-bottom: 1rem;
             width: 100%;
             border-radius: 0.5rem;
-            border: 3px solid ${color.accent};
+            border: 3px solid ${color.primaryDark};
             transition: border 0.3s ease;
 
             &:active,
             &:focus {
-                border: 3px solid ${color.darkGrey};
+                border: 3px solid ${color.primary};
                 outline: none;
             }
 
             &:hover {
-                border: 3px solid ${color.primary};
+                border: 3px solid ${color.primaryLight};
             }
         }
 
@@ -60,10 +60,10 @@ injectGlobal`
             width: 50%;
             margin: 1rem auto 3rem;
             padding: 0.75rem;
-            border: 3px solid ${color.accent};
+            border: 3px solid ${color.secondaryLight};
             border-radius: 0.5rem;
             font-size: ${fontSize.medium};
-            color: ${color.accent};
+            color: ${color.almostBlack};
             background-color: ${color.primary};
             font-weight: 700;
             text-transform: uppercase;
@@ -72,8 +72,9 @@ injectGlobal`
             &:active,
             &:focus,
             &:hover {
-                background-color: ${color.accent};
+                background-color: ${color.secondary};
                 color: ${color.almostBlack};
+                border-color: ${color.primaryDark};
                 outline: none;
             }
         }

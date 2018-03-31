@@ -17,7 +17,7 @@ injectGlobal`
 
         &.isScrolling {
             position: fixed;
-            background-color: ${color.primary};
+            background-color: ${color.primaryDark};
             box-shadow: 0 3px 0.75rem 0 ${color.almostBlack};
         }
     }

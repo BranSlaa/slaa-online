@@ -4,92 +4,27 @@ import { color, fontSize, mediaQuery } from '../../global';
 
 injectGlobal`
     .about {
-        padding: 3rem 0;
+        padding: 3rem;
 
-        h3 {
-
-            font-size: ${fontSize.large};
+        .sectionTitle {
             text-align: center;
             text-transform: capitalize;
+            margin-bottom: 2rem;
+
         }
-        .buckets {
-            display: flex;
-            flex-direction: column;
 
-             @media (${mediaQuery.large}) {
-                flex-direction: row;
-            }
+        .workPlace {
+            display: inline;
+            text-transform: uppercase;
+            /* text-decoration: underline;
+            text-decoration-color: ${color.primary}; */
+            border-bottom: 3px solid ${color.primary};
 
-
-            .skills, .code {
-                padding: 1rem;
-                margin-bottom: 1rem;
-                margin-top: 1rem;
-
-                @media (${mediaQuery.large}) {
-                    width: 100%;
-                    border-radius: 1rem;
-                }
-
-                p {
-                    font-size: ${fontSize.medium};
-                }
-
-                h4 {
-                    text-align: center;
-                    font-size: ${fontSize.large};
-                    margin-bottom: 2rem;
-                }
-            }
-            .skills {
-                background-color: ${color.primary};
-                margin-right: 5%;
-                border-top-right-radius: 1rem;
-                border-bottom-right-radius: 1rem;
-
-                @media (${mediaQuery.medium}) {
-                    margin-right: 10%;
-                }
-
-                @media (${mediaQuery.large}) {
-                    margin: 1rem;
-                }
-
-                span {
-                    font-size: ${fontSize.small};
-                }
-            }
-
-            .code {
-                background-color: ${color.accent};
-                margin-left: 5%;
-                border-top-left-radius: 1rem;
-                border-bottom-left-radius: 1rem;
-
-
-                @media (${mediaQuery.medium}) {
-                    margin-left: 10%;
-                }
-
-                @media (${mediaQuery.large}) {
-                    margin: 1rem;
-                }
-
-                .imageGrid {
-                    display: flex;
-                    flex-flow: row wrap;
-                    justify-content: space-around;
-
-                    img {
-                        height: 3rem;
-                        width: auto;
-                    }
-                }
-
-                p, h4 {
-                    color: ${color.almostBlack};
-                }
-
+            .jobTitle {
+                font-size: ${fontSize.small};
+                text-transform: capitalize;
+                /* text-decoration: underline;
+                text-decoration-color: ${color.primaryLight}; */
             }
         }
     }

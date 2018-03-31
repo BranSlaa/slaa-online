@@ -61,7 +61,7 @@ injectGlobal`
             }
 
             .code {
-                background-color: ${color.asset};
+                background-color: ${color.accent};
                 margin-left: 5%;
                 border-top-left-radius: 1rem;
                 border-bottom-left-radius: 1rem;

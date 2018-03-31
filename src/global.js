@@ -27,7 +27,7 @@ export const contactInfo = {
 export const color = {
     primary: '#bf212f',
     secondary: '#006f3c',
-    asset: '#f9a73e',
+    accent: '#f9a73e',
     darkGrey: '#494043',
     almostBlack: '#333333',
     almostWhite: '#f7f7f7'

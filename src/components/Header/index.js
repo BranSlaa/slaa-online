@@ -1,7 +1,7 @@
 import Header from './Header';
 
 import styled, { injectGlobal } from 'styled-components';
-import { color } from '../../global';
+import { color, mediaQuery } from '../../global';
 
 injectGlobal`
     .nav {
@@ -12,8 +12,18 @@ injectGlobal`
         flex-direction: row;
         justify-content: space-between;
         margin: 0 auto;
-        padding: 1rem 20%;
+        padding: 1rem 5%;
         transition: all 0.3s ease-in-out;
+
+        @media (${mediaQuery.medium}) {
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+
+        @media (${mediaQuery.large}) {
+            padding-right: 20%;
+            padding-left: 20%;
+        }
 
         &.isScrolling {
             position: fixed;

@@ -9,6 +9,7 @@ injectGlobal`
     background-color: ${color.almostBlack};
     color: ${color.almostWhite};
     font-family: ${typography.primary};
+    min-width: 17.5rem;
   }
 
   .main {

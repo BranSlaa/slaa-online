@@ -17,7 +17,7 @@ const IndexPage = () => (
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'space-around',
-                    padding: '14rem 0',
+                    padding: '14rem 0 2rem',
                     textAlign: 'center'
                 }}
             >
@@ -39,7 +39,8 @@ const IndexPage = () => (
                 <p
                     style={{
                         maxWidth: '600px',
-                        fontSize: `${fontSize.medium}`
+                        fontSize: `${fontSize.medium}`,
+                        marginBottom: '2rem'
                     }}
                 >
                     I am a hard-working and dedicated Full Stack Web Developer

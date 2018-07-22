@@ -55,7 +55,7 @@ const Footer = () => (
                         src={twitterLogo}
                     />
                 </a>
-                <a href="https://twitter.com/BrandonSlaa">
+                <a href="https://www.linkedin.com/in/brandon-slaa/">
                     <img
                         style={{ height: '3rem', width: 'auto' }}
                         src={linkedinLogo}

@@ -18,6 +18,7 @@ const EmailForm = () => (
         <label>
             Message: <textarea name="message" />
         </label>
+        <div data-netlify-recaptcha="true"></div>
         <button type="submit">Send</button>
     </form>
 );
